@@ -1,0 +1,6 @@
+<manifest>
+
+	<project path="device/htc/bravo" name="CyanDreamProject/android_device_htc_bravo" revision="cm-10.1" />
+	<project path="vendor/htc/bravo" name="CyanDreamProject/android_vendor_htc_bravo" revision="jellybean" />
+
+</manifest>
