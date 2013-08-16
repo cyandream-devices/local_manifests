@@ -1,6 +1,16 @@
 <manifest>
+	
+	<remove-project path="external/koush/ion" name="CyanogenMod/ion" />
+  	<remove-project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
+	<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
+	<remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />	
+	<remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
+	<remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />	
 
 	<project path="device/htc/bravo" name="CyanDreamProject/android_device_htc_bravo" revision="cm-10.1" />
 	<project path="vendor/htc/bravo" name="CyanDreamProject/android_vendor_htc_bravo" revision="jellybean" />
+	<project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="refs/heads/cm-10.1" />
+	<project path="hardware/libhardware" name="csytracy/android_hardware_libhardware" revision="refs/heads/cm-10.1" />
+	
 
 </manifest>
