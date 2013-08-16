@@ -1,0 +1,6 @@
+<manifest>
+
+	<project path="device/samsung/maguro" name="CyanDreamProject/android_device_samsung_maguro" />
+	<project path="vendor/samsung/maguro" name="CyanDreamProject/android_vendor_samsing_maguro" />
+	
+</manifest>
