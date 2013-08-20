@@ -8,7 +8,7 @@
 	<remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
 
 	<project path="vendor/htc/bravo" name="CyanDreamProject/android_vendor_htc_bravo" revision="jellybean-4.3" />
-	<project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="cm10.1" />
+	<project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="cm-10.1" />
 	<project path="hardware/libhardware" name="csytracy/android_hardware_libhardware" revision="cm-10.1" />
 	<project path="kernel/htc/bravo-qsd8k" name="CyanDreamProject/android_kernel_htc_qsd8k" revision="jellybean-4.3" />
 
