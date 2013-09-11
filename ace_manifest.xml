@@ -5,14 +5,13 @@
            fetch="git://android.git.linaro.org/" />
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
 
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro" remote="linaro" revision="master" />
-  <project path="hardware/qcom/display" name="yanniks/android_hardware_qcom_display" revision="cm-10.2" />
+  <project path="hardware/qcom/display-legacy" name="Flyhalf205/android_hardware_qcom_display-legacy" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="yanniks/android_hardware_qcom_media" revision="cm-10.2" />
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="cm-10.2" />
   <project path="prebuilts/misc" name="yanniks/android_prebuilts_misc" revision="cm-10.2" />
