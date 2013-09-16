@@ -1,16 +1,15 @@
 <manifest>
-	
-	<remove-project path="external/koush/ion" name="CyanogenMod/ion" />
-  	<remove-project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
-	<remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
-	<remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />	
-	<remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-	<remove-project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
 
-	<project path="vendor/htc/bravo" name="CyanDreamProject/android_vendor_htc_bravo" revision="jellybean-4.3" />
-	<project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="cm-10.1" />
-	<project path="hardware/libhardware" name="csytracy/android_hardware_libhardware" revision="cm-10.1" />
-	<project path="kernel/htc/bravo-qsd8k" name="CyanDreamProject/android_kernel_htc_qsd8k" revision="jellybean-4.3" />
-	<project path="device/htc/qsd8k-common" name="CyanDreamProject/android_device_htc_qsd8k-common" revision="jellybean-4.3" />
+  <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
+
+  <project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="refs/heads/cm-10.2" />
+  <project path="hardware/libhardware" name="csytracy/android_hardware_libhardware" revision="refs/heads/cm-10.2" />
+  <project path="device/htc/qsd8k-common" name="WoH/android_device_htc_qsd8k-common" revision="refs/heads/jellybean-4.3" />
+  <project path="kernel/htc/qsd8k" name="Evervolv/android_kernel_htc_qsd8k" revision="refs/heads/jellybean-4.3" />
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" revision="refs/heads/jellybean-4.3" />
+  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" revision="refs/heads/jellybean-4.3" />
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" revision="refs/heads/jellybean-4.3" />
+  <project path="vendor/htc" name="Evervolv/android_vendor_htc" revision="refs/heads/jellybean-4.3" />
 
 </manifest>
