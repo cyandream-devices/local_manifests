@@ -4,8 +4,8 @@
   <remove-project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
 
   <project path="frameworks/opt/telephony" name="csytracy/android_frameworks_opt_telephony" revision="refs/heads/cm-10.2" />
-  <project path="hardware/libhardware" name="csytracy/android_hardware_libhardware" revision="refs/heads/cm-10.2" />
-  <project path="device/htc/qsd8k-common" name="WoH/android_device_htc_qsd8k-common" revision="cd-4.3" />
+  <project path="hardware/libhardware" name="Evervolv/android_hardware_libhardware" revision="jellybean-4.3" />
+  <project path="device/htc/qsd8k-common" name="WoH/android_device_htc_qsd8k-common" revision="jellybean-4.3" />
   <project path="kernel/htc/qsd8k" name="Evervolv/android_kernel_htc_qsd8k" revision="refs/heads/jellybean-4.3" />
   <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" revision="refs/heads/jellybean-4.3" />
   <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" revision="refs/heads/jellybean-4.3" />
