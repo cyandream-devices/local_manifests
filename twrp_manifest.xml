@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove CM repo -->
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+
+  <!-- Other stuff -->
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" />
+
+</manifest>
