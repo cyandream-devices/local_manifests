@@ -2,12 +2,13 @@
 <manifest>
 
   <!-- remove CM repos -->
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" revision="cm-10.2" />
+  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="cm10.2" />
   <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.2" />
   <project path="kernel/htc/RowShow-7x30" name="yanniks/RowShow-7x30" revision="cm-10.2" />
   <project path="device/htc/msm7x30-common" name="yanniks/android_device_htc_msm7x30-common" revision="cm-10.2" />
