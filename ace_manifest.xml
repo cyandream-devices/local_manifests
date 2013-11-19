@@ -7,7 +7,6 @@
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <remove-project name="CyanogenMod/android_system_vold" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
