@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- remove CM repos -->
+  <!-- remove stock repos -->
+  <remove-project name="CyanDreamProject/android_build" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
@@ -10,6 +11,9 @@
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
+  <project path="build" name="CyanDreamProject/android_build" revision="cd-4.4-ace">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/htc/msm7x30-common" name="CyanDreamProject/android_device_htc_msm7x30-common" revision="cd-4.4" />
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-11.0" />
