@@ -3,6 +3,7 @@
 
   <!-- remove stock repos -->
   <remove-project name="CyanDreamProject/android_build" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <remove-project name="CyanogenMod/android_system_vold" />
@@ -13,6 +14,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/htc/msm7x30-common" name="CyanDreamProject/android_device_htc_msm7x30-common" revision="cd-4.4" />
+  <project path="frameworks/native" name="cyandream-exp/android_frameworks_native" revision="cd-4.4" />
   <project path="hardware/qcom/audio-legacy" name="Mustaavalkosta/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="Mustaavalkosta/android_hardware_qcom_display-legacy" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" revision="cm-11.0" />
