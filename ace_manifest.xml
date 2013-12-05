@@ -20,7 +20,7 @@
   <project path="hardware/qcom/media-legacy" name="Mustaavalkosta/android_hardware_qcom_media-legacy" revision="cm-11.0" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-11.0" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="CyanDreamProject/android_packages_apps_Torch" revision="cm-11.0" />
+  <project path="packages/apps/Torch" name="CyanDreamProject/android_packages_apps_Torch" revision="cd-4.4" />
   <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" revision="cm-11.0" />
   <project path="prebuilt/darwin-x86/toolchain/arm-eabi-4.8" name="cyandream-exp/android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.8" revision="master" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
