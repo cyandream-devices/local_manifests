@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remove stock repos -->
+  <remove-project name="CyanDreamProject/android_build" />
+
+  <!-- Other stuff -->
+  <project path="build" name="team-moto-g/android_build" revision="cm-11.0" />
+
+</manifest>
+
+
