@@ -3,12 +3,14 @@
 
   <!-- remove stock repos -->
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- Other stuff -->
   <project path="hardware/libhardware_legacy" name="Mustaavalkosta/android_hardware_libhardware_legacy" revision="cm-11.0" />
+  <project path="packages/apps/Camera2" name="Mustaavalkosta/android_packages_apps_Camera2" revision="cm-11.0" />
   <project path="packages/apps/proximitysensor" name="yanniks/android_packages_apps_proximitysensor" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="cyandream-devices/android_packages_apps_Torch" revision="cd-4.4" />
   <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" revision="cm-11.0" />
